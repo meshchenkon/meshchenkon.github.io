@@ -1,0 +1,137 @@
+﻿<!DOCTYPE html PUBLIC>
+<html>
+<head>
+
+<title>Статистические функции MS Excel</title>
+
+<link href="style.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+<div id="templatemo_wrapper">
+
+	<div id="templatemo_header">
+        <div id="site_title">
+            <a href="index.html"><h1>Электронный </h1> <h1>учебник</h1></a>
+            <marquee style="color:#00FFFF;font-family: Verdana; font-size: 12pt" behavior="slide" direction="right">Статистические функции MS Excel</marquee>
+        </div> <!-- end of site_title -->
+    </div> <!-- end of templatemo_header -->
+    
+    <div id="templatemo_main">
+    
+    	<div id="templatemo_sidebar">
+        
+            <div id="templatemo_menu">
+                <ul>
+                    <li><a href="index.html" class="current">Главная</a></li>
+                    <li><a href="corporate.html">Описание функций</a></li>
+                    <li><a href="business.html">Примеры использования</a></li>
+                    <li><a href="clients.html">Видео</a></li>
+                    <li><a href="contact.html">Проверка знаний</a></li>
+                </ul>
+            </div> <!-- end of templatemo_menu -->
+            
+            <div class="sidebar_box">
+            	
+				<h3></h3>
+            
+            	
+                
+          	</div>
+        
+        </div> <!-- end of templatemo_sidebar -->
+        
+        <div id="templatemo_content">
+        
+            <h1>Примеры</h1>
+            
+            <div class="post_box">
+        
+            <div class="post_content">
+            
+            	<div class="right">
+               		<a href="#"><img src="image/12.png" alt="image 5" /></a>                </div>
+                
+              <div class="left">
+                <h3>Теперь давайте рассмотрим применение некоторых функций на конкретном примере. </h3>
+            
+          		               	  <p>Имеем список работников предприятия с положенными им заработными платами. Но, кроме того, всем работникам положена премия. 
+Обычная премия составляет 700 рублей. Но пенсионерам и женщинам положена повышенная премия в размере 1000 рублей. 
+Исключение составляют работники, по различным причинам проработавшие в данном месяце менее 18 дней. 
+Им в любом случае положена только обычная премия в размере 700 рублей.</p>
+                    
+                    
+                </div>
+                
+                <div class="cleaner"></div>
+            </div>
+
+        </div>
+        
+        <div class="post_box">
+        
+            
+            
+            <div class="post_content">
+            
+            	<div class="right">
+                	<a href="#"><img src="image/13.png" alt="image 6" /></a>                </div>
+                
+              <div class="left">
+                
+            
+            	                
+               	  <p>Попробуем составить формулу. Итак, у нас существует два условия, при исполнении которых положена премия в 1000 рублей – это достижение пенсионного возраста или принадлежность работника к женскому полу. 
+При этом, к пенсионерам отнесем всех тех, кто родился ранее 1957 года. В нашем случае для первой строчки таблицы формула примет такой вид: =ЕСЛИ(ИЛИ(C4<1957;D4="жен.");"1000";"700") . Но, не забываем, что обязательным условием получения повышенной премии является отработка 18 дней и более. 
+Чтобы внедрить данное условие в нашу формулу, применим функцию НЕ: =ЕСЛИ(ИЛИ(C4<1957;D4="жен.")*(НЕ(E4<18));"1000";"700") .</p>
+                    
+                    
+                </div>
+                
+                <div class="cleaner"></div>
+            </div>
+        </div>
+        
+        <div class="post_box">
+        
+            
+            
+            <div class="post_content">
+            
+            	<div class="right">
+                	<a href="#"><img src="image/14.png" alt="image 7" /></a>                </div>
+                
+              <div class="left">
+                           
+           		               
+               	  <p>Для того, чтобы скопировать данную функцию в ячейки столбца таблицы, где указана величина премии, становимся курсором в нижний правый угол ячейки, в которой уже имеется формула. 
+Появляется маркер заполнения. Просто перетягиваем его вниз до конца таблицы.Таким образом, мы получили таблицу с информацией о величине премии для каждого работника предприятия в отдельности.Как видим, логические функции являются очень удобным инструментом для проведения расчетов в программе Microsoft Excel. 
+Используя сложные функции, можно задавать несколько условий одновременно и получать выводимый результат в зависимости от того, выполнены эти условия или нет. 
+Применение подобных формул способно автоматизировать целый ряд действий, что способствует экономии времени пользователя.</p>
+                    
+                    </div>
+                
+                <div class="cleaner"></div>
+            </div>
+        </div>
+        
+        </div> <!-- end of templatemo_content -->
+        
+    
+    	<div class="cleaner"></div>
+    </div> <!-- end of templatemo_main -->
+    
+    <div id="templatemo_footer">
+
+        Copyright © 2021 | 
+        Designed by <a href="index.html" target="_parent">Meshchenko</a> | 
+       
+    
+    </div> <!-- end of templatemo_footer -->
+	
+    <div class="cleaner"></div>
+</div> <!-- end of templatemo_wrapper -->
+
+</body>
+</html>
