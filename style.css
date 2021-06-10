@@ -26,7 +26,7 @@ img { border: none; }
 
 h1, h2, h3, h4, h5, h6 { font-weight: normal; color: black}
 
-h1 { font-size: 30px; margin: 0 0 15px 0; padding: 5px 0; font-family:Lobster, cursive; }
+h1 { font-size: 40px; margin: 0 0 15px 0; padding: 5px 0; font-family:Lobster, cursive; }
 h2 { font-size: 26px; margin: 0 0 20px 0; padding: 0; color: #ffff00;}
 h3 { font-size: 21px; margin: 0 0 20px 0; padding: 0; }
 h4 { font-size: 18px; margin: 0 0 20px 0; padding: 0; }
@@ -82,9 +82,7 @@ cite { font-weight: bold; }
 	text-decoration: none;
 }
 
-.button a:hover {
-	text-decoration: underline;
-}
+
 
 
 
@@ -103,6 +101,9 @@ cite { font-weight: bold; }
 	width: 300px;
 	text-align: center;
 	padding: 80px 0 0 20px;
+	 text-shadow: blue 0 0 10px; 
+  
+   }
 }
 
 #header  #site_title a {
@@ -117,7 +118,7 @@ cite { font-weight: bold; }
 #header  #site_title a span {
 	display: block;
 	text-align: right;
-	font-size: 14px;
+	font-size: 16px;
 	
 	font-weight: bold;
 	letter-spacing: 2px;
@@ -126,12 +127,15 @@ cite { font-weight: bold; }
 
 
 #templatemo_main {
-	width: 930px;
+width: 961px;
+
+	padding: 0 10px;
 
 	margin: 0 auto;
-	padding: 60px 40px 30px 10px;
+
+
 	
-	background: url(images/top.png) no-repeat,  url(images/top1.png);
+	background: url(images/top.png) no-repeat,  url(images/top1.png) repeat-y;
 	
 	}
 
@@ -162,7 +166,7 @@ cite { font-weight: bold; }
 #templatemo_menu ul li a {
 	display: block;
 	height: 25px;
-	padding: 11px 0 0 30px;
+	padding: 11px 0 0 10px;
 	font-size: 14px;
 	text-decoration: none;
 		
@@ -347,4 +351,7 @@ cite { font-weight: bold; }
 }
 #text{
 	font-size: 20px;
+}
+.foto{
+	text-align: center;
 }
