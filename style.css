@@ -17,7 +17,7 @@ a, a:link, a:visited {
 }
 
 a:hover {
-	color: #CCFF00;
+	color: #006400;
 	text-decoration: none;
 }
 
@@ -82,11 +82,6 @@ cite { font-weight: bold; }
 	text-decoration: none;
 }
 
-
-
-
-
-
 #header {
 	width: 961px;
 	height: 200px;
@@ -98,10 +93,10 @@ cite { font-weight: bold; }
 
 #header  #site_title {
 	float: left;
-	width: 300px;
+	width: 900px;
 	text-align: center;
 	padding: 80px 0 0 20px;
-	 text-shadow: blue 0 0 10px; 
+	
   
    }
 }
@@ -214,6 +209,8 @@ width: 961px;
 #templatemo_content {
 	float: right;
 	width: 600px;
+	margin-right: 5%;
+
 }
 
 #templatemo_content p {
@@ -351,7 +348,8 @@ width: 961px;
 }
 #text{
 	font-size: 20px;
+	line-height: 1.5;
 }
-.foto{
-	text-align: center;
+#foto{
+text-align: center;
 }
